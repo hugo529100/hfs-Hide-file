@@ -1,7 +1,7 @@
 exports.version = 1.0
 exports.description = "Hide specified files and folders from the file list. Supports wildcard patterns for flexible matching."
 exports.apiRequired = 8.9
-exports.repo = "Hug3O/Hide-files"
+exports.repo = "hugo529100/hfs-Hide-file"
 exports.frontend_js = 'main.js'
 
 exports.config = {
@@ -16,7 +16,7 @@ exports.config = {
     hideExactFiles: {
         frontend: true,
         type: 'string',
-        defaultValue: 'conversion_log.txt, conversionlog.txt, lists.txt, lists2.txt',
+        defaultValue: 'conversion_log.txt, conversionlog.txt, lists.txt, lists2.txt, _lazyload',
         multiline: true,
         label: "Exact file names to hide (full name match, separate with commas or new lines)",
         sm: 12
